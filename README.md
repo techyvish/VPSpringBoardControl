@@ -7,6 +7,5 @@ Also it shows red badge as well.
 
 Enjoy !!
 
-
-![Screen1] (https://github.com/techyvish/VPSpringBoardControl/Screen2.png)
-![Screen2] (https://github.com/techyvish/VPSpringBoardControl/Screen1.png)
+![Wonderwall Like Demo](https://github.com/techyvish/VPSpringBoardControl/blob/master/Screen2.png "Wonderwall Like Demo")
+![Cloth Test](https://github.com/techyvish/VPSpringBoardControl/blob/master/Screen1.png "Cloth Test")
