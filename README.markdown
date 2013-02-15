@@ -7,5 +7,5 @@ Also it shows red badge as well.
 
 Enjoy !!
 
-![Wonderwall Like Demo](/Screen2.png "Wonderwall Like Demo")
-![Cloth Test](/Screen1.png "Cloth Test")
+![Screen1](/Screen2.png "Screen1 Demo")
+![Screen2](/Screen1.png "Screen2 Demo")
