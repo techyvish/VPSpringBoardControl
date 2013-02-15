@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95860AF16CCB10A00903799 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860AE16CCB10A00903799 /* UIKit.framework */; };
+		C95860B116CCB10A00903799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860B016CCB10A00903799 /* Foundation.framework */; };
+		C95860B316CCB10A00903799 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860B216CCB10A00903799 /* CoreGraphics.framework */; };
+		C95860B916CCB10A00903799 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95860B716CCB10A00903799 /* InfoPlist.strings */; };
+		C95860BB16CCB10A00903799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95860BA16CCB10A00903799 /* main.m */; };
+		C95860BF16CCB10A00903799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95860BE16CCB10A00903799 /* AppDelegate.m */; };
+		C95860C116CCB10A00903799 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C95860C016CCB10A00903799 /* Default.png */; };
+		C95860C316CCB10A00903799 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C95860C216CCB10A00903799 /* Default@2x.png */; };
+		C95860C516CCB10A00903799 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C95860C416CCB10A00903799 /* Default-568h@2x.png */; };
+		C95860C816CCB10A00903799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95860C716CCB10A00903799 /* ViewController.m */; };
+		C95860CB16CCB10A00903799 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95860C916CCB10A00903799 /* ViewController_iPhone.xib */; };
+		C95860CE16CCB10A00903799 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95860CC16CCB10A00903799 /* ViewController_iPad.xib */; };
+		C95860D616CCB10A00903799 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860D516CCB10A00903799 /* SenTestingKit.framework */; };
+		C95860D716CCB10A00903799 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860AE16CCB10A00903799 /* UIKit.framework */; };
+		C95860D816CCB10A00903799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95860B016CCB10A00903799 /* Foundation.framework */; };
+		C95860E016CCB10A00903799 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95860DE16CCB10A00903799 /* InfoPlist.strings */; };
+		C95860E316CCB10A00903799 /* VPSpringBoardControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95860E216CCB10A00903799 /* VPSpringBoardControlTests.m */; };
+		C95860F216CCB1B600903799 /* VPGridView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C95860ED16CCB1B500903799 /* VPGridView.mm */; };
+		C95860F316CCB1B600903799 /* VPIconLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95860EF16CCB1B500903799 /* VPIconLayer.m */; };
+		C95860F416CCB1B600903799 /* VPProxyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C95860F116CCB1B600903799 /* VPProxyView.mm */; };
+		C958610516CCB24900903799 /* VPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C958610216CCB24900903799 /* VPBadge.m */; };
+		C958613D16CD0B1500903799 /* VPIconData.m in Sources */ = {isa = PBXBuildFile; fileRef = C958613C16CD0B1500903799 /* VPIconData.m */; };
+		C958614216CD0BB000903799 /* RedBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = C958613E16CD0BAF00903799 /* RedBadge.png */; };
+		C958614316CD0BB000903799 /* RedBadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C958613F16CD0BAF00903799 /* RedBadge@2x.png */; };
+		C958614416CD0BB000903799 /* VPSpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C958614116CD0BB000903799 /* VPSpriteManager.m */; };
+		C958614716CD0C2000903799 /* VPVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C958614616CD0C2000903799 /* VPVersionUtil.m */; };
+		C958614916CD97E400903799 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C958614816CD97E400903799 /* QuartzCore.framework */; };
+		C958615616CDAAD700903799 /* image_collection.plist in Resources */ = {isa = PBXBuildFile; fileRef = C958615216CDAAD300903799 /* image_collection.plist */; };
+		C958615716CDAAD700903799 /* image_collection.png in Resources */ = {isa = PBXBuildFile; fileRef = C958615316CDAAD400903799 /* image_collection.png */; };
+		C958615816CDAAD700903799 /* image_collection@2x.plist in Resources */ = {isa = PBXBuildFile; fileRef = C958615416CDAAD500903799 /* image_collection@2x.plist */; };
+		C958615916CDAAD700903799 /* image_collection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C958615516CDAAD600903799 /* image_collection@2x.png */; };
+		C958615C16CDB4C200903799 /* VPCollisionCirlce.m in Sources */ = {isa = PBXBuildFile; fileRef = C958615B16CDB4BD00903799 /* VPCollisionCirlce.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95860D916CCB10A00903799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95860A116CCB10A00903799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95860A916CCB10A00903799;
+			remoteInfo = VPSpringBoardControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95860AA16CCB10A00903799 /* VPSpringBoardControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPSpringBoardControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95860AE16CCB10A00903799 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C95860B016CCB10A00903799 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C95860B216CCB10A00903799 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C95860B616CCB10A00903799 /* VPSpringBoardControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPSpringBoardControl-Info.plist"; sourceTree = "<group>"; };
+		C95860B816CCB10A00903799 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C95860BA16CCB10A00903799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95860BC16CCB10A00903799 /* VPSpringBoardControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPSpringBoardControl-Prefix.pch"; sourceTree = "<group>"; };
+		C95860BD16CCB10A00903799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C95860BE16CCB10A00903799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C95860C016CCB10A00903799 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C95860C216CCB10A00903799 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C95860C416CCB10A00903799 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C95860C616CCB10A00903799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C95860C716CCB10A00903799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C95860CA16CCB10A00903799 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C95860CD16CCB10A00903799 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C95860D416CCB10A00903799 /* VPSpringBoardControlTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPSpringBoardControlTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95860D516CCB10A00903799 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C95860DD16CCB10A00903799 /* VPSpringBoardControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPSpringBoardControlTests-Info.plist"; sourceTree = "<group>"; };
+		C95860DF16CCB10A00903799 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C95860E116CCB10A00903799 /* VPSpringBoardControlTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPSpringBoardControlTests.h; sourceTree = "<group>"; };
+		C95860E216CCB10A00903799 /* VPSpringBoardControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPSpringBoardControlTests.m; sourceTree = "<group>"; };
+		C95860EC16CCB1B500903799 /* VPGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPGridView.h; sourceTree = "<group>"; };
+		C95860ED16CCB1B500903799 /* VPGridView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VPGridView.mm; sourceTree = "<group>"; };
+		C95860EE16CCB1B500903799 /* VPIconLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPIconLayer.h; sourceTree = "<group>"; };
+		C95860EF16CCB1B500903799 /* VPIconLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPIconLayer.m; sourceTree = "<group>"; };
+		C95860F016CCB1B600903799 /* VPProxyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPProxyView.h; sourceTree = "<group>"; };
+		C95860F116CCB1B600903799 /* VPProxyView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VPProxyView.mm; sourceTree = "<group>"; };
+		C958610216CCB24900903799 /* VPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPBadge.m; sourceTree = "<group>"; };
+		C958610316CCB24900903799 /* VPCollisionCirlce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPCollisionCirlce.h; sourceTree = "<group>"; };
+		C958613B16CD0B1500903799 /* VPIconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPIconData.h; sourceTree = "<group>"; };
+		C958613C16CD0B1500903799 /* VPIconData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPIconData.m; sourceTree = "<group>"; };
+		C958613E16CD0BAF00903799 /* RedBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedBadge.png; sourceTree = "<group>"; };
+		C958613F16CD0BAF00903799 /* RedBadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedBadge@2x.png"; sourceTree = "<group>"; };
+		C958614016CD0BB000903799 /* VPSpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPSpriteManager.h; sourceTree = "<group>"; };
+		C958614116CD0BB000903799 /* VPSpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPSpriteManager.m; sourceTree = "<group>"; };
+		C958614516CD0C2000903799 /* VPVersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPVersionUtil.h; sourceTree = "<group>"; };
+		C958614616CD0C2000903799 /* VPVersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPVersionUtil.m; sourceTree = "<group>"; };
+		C958614816CD97E400903799 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C958615216CDAAD300903799 /* image_collection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = image_collection.plist; sourceTree = "<group>"; };
+		C958615316CDAAD400903799 /* image_collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_collection.png; sourceTree = "<group>"; };
+		C958615416CDAAD500903799 /* image_collection@2x.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_collection@2x.plist"; sourceTree = "<group>"; };
+		C958615516CDAAD600903799 /* image_collection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_collection@2x.png"; sourceTree = "<group>"; };
+		C958615A16CDB47000903799 /* VPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPBadge.h; sourceTree = "<group>"; };
+		C958615B16CDB4BD00903799 /* VPCollisionCirlce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPCollisionCirlce.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95860A716CCB10A00903799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C958614916CD97E400903799 /* QuartzCore.framework in Frameworks */,
+				C95860AF16CCB10A00903799 /* UIKit.framework in Frameworks */,
+				C95860B116CCB10A00903799 /* Foundation.framework in Frameworks */,
+				C95860B316CCB10A00903799 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95860D016CCB10A00903799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95860D616CCB10A00903799 /* SenTestingKit.framework in Frameworks */,
+				C95860D716CCB10A00903799 /* UIKit.framework in Frameworks */,
+				C95860D816CCB10A00903799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C958609F16CCB10A00903799 = {
+			isa = PBXGroup;
+			children = (
+				C958614816CD97E400903799 /* QuartzCore.framework */,
+				C95860B416CCB10A00903799 /* VPSpringBoardControl */,
+				C95860DB16CCB10A00903799 /* VPSpringBoardControlTests */,
+				C95860AD16CCB10A00903799 /* Frameworks */,
+				C95860AB16CCB10A00903799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95860AB16CCB10A00903799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95860AA16CCB10A00903799 /* VPSpringBoardControl.app */,
+				C95860D416CCB10A00903799 /* VPSpringBoardControlTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95860AD16CCB10A00903799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95860AE16CCB10A00903799 /* UIKit.framework */,
+				C95860B016CCB10A00903799 /* Foundation.framework */,
+				C95860B216CCB10A00903799 /* CoreGraphics.framework */,
+				C95860D516CCB10A00903799 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95860B416CCB10A00903799 /* VPSpringBoardControl */ = {
+			isa = PBXGroup;
+			children = (
+				C958613B16CD0B1500903799 /* VPIconData.h */,
+				C958613C16CD0B1500903799 /* VPIconData.m */,
+				C958614516CD0C2000903799 /* VPVersionUtil.h */,
+				C958614616CD0C2000903799 /* VPVersionUtil.m */,
+				C958614016CD0BB000903799 /* VPSpriteManager.h */,
+				C958614116CD0BB000903799 /* VPSpriteManager.m */,
+				C958615A16CDB47000903799 /* VPBadge.h */,
+				C958610216CCB24900903799 /* VPBadge.m */,
+				C958610316CCB24900903799 /* VPCollisionCirlce.h */,
+				C958615B16CDB4BD00903799 /* VPCollisionCirlce.m */,
+				C95860EC16CCB1B500903799 /* VPGridView.h */,
+				C95860ED16CCB1B500903799 /* VPGridView.mm */,
+				C95860EE16CCB1B500903799 /* VPIconLayer.h */,
+				C95860EF16CCB1B500903799 /* VPIconLayer.m */,
+				C95860F016CCB1B600903799 /* VPProxyView.h */,
+				C95860F116CCB1B600903799 /* VPProxyView.mm */,
+				C95860BD16CCB10A00903799 /* AppDelegate.h */,
+				C95860BE16CCB10A00903799 /* AppDelegate.m */,
+				C95860C616CCB10A00903799 /* ViewController.h */,
+				C95860C716CCB10A00903799 /* ViewController.m */,
+				C95860C916CCB10A00903799 /* ViewController_iPhone.xib */,
+				C95860CC16CCB10A00903799 /* ViewController_iPad.xib */,
+				C958613E16CD0BAF00903799 /* RedBadge.png */,
+				C958613F16CD0BAF00903799 /* RedBadge@2x.png */,
+				C958615216CDAAD300903799 /* image_collection.plist */,
+				C958615316CDAAD400903799 /* image_collection.png */,
+				C958615416CDAAD500903799 /* image_collection@2x.plist */,
+				C958615516CDAAD600903799 /* image_collection@2x.png */,
+				C95860B516CCB10A00903799 /* Supporting Files */,
+			);
+			path = VPSpringBoardControl;
+			sourceTree = "<group>";
+		};
+		C95860B516CCB10A00903799 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95860B616CCB10A00903799 /* VPSpringBoardControl-Info.plist */,
+				C95860B716CCB10A00903799 /* InfoPlist.strings */,
+				C95860BA16CCB10A00903799 /* main.m */,
+				C95860BC16CCB10A00903799 /* VPSpringBoardControl-Prefix.pch */,
+				C95860C016CCB10A00903799 /* Default.png */,
+				C95860C216CCB10A00903799 /* Default@2x.png */,
+				C95860C416CCB10A00903799 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C95860DB16CCB10A00903799 /* VPSpringBoardControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95860E116CCB10A00903799 /* VPSpringBoardControlTests.h */,
+				C95860E216CCB10A00903799 /* VPSpringBoardControlTests.m */,
+				C95860DC16CCB10A00903799 /* Supporting Files */,
+			);
+			path = VPSpringBoardControlTests;
+			sourceTree = "<group>";
+		};
+		C95860DC16CCB10A00903799 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95860DD16CCB10A00903799 /* VPSpringBoardControlTests-Info.plist */,
+				C95860DE16CCB10A00903799 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95860A916CCB10A00903799 /* VPSpringBoardControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95860E616CCB10A00903799 /* Build configuration list for PBXNativeTarget "VPSpringBoardControl" */;
+			buildPhases = (
+				C95860A616CCB10A00903799 /* Sources */,
+				C95860A716CCB10A00903799 /* Frameworks */,
+				C95860A816CCB10A00903799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPSpringBoardControl;
+			productName = VPSpringBoardControl;
+			productReference = C95860AA16CCB10A00903799 /* VPSpringBoardControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95860D316CCB10A00903799 /* VPSpringBoardControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95860E916CCB10A00903799 /* Build configuration list for PBXNativeTarget "VPSpringBoardControlTests" */;
+			buildPhases = (
+				C95860CF16CCB10A00903799 /* Sources */,
+				C95860D016CCB10A00903799 /* Frameworks */,
+				C95860D116CCB10A00903799 /* Resources */,
+				C95860D216CCB10A00903799 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95860DA16CCB10A00903799 /* PBXTargetDependency */,
+			);
+			name = VPSpringBoardControlTests;
+			productName = VPSpringBoardControlTests;
+			productReference = C95860D416CCB10A00903799 /* VPSpringBoardControlTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95860A116CCB10A00903799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "vishal patel";
+			};
+			buildConfigurationList = C95860A416CCB10A00903799 /* Build configuration list for PBXProject "VPSpringBoardControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C958609F16CCB10A00903799;
+			productRefGroup = C95860AB16CCB10A00903799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95860A916CCB10A00903799 /* VPSpringBoardControl */,
+				C95860D316CCB10A00903799 /* VPSpringBoardControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95860A816CCB10A00903799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95860B916CCB10A00903799 /* InfoPlist.strings in Resources */,
+				C95860C116CCB10A00903799 /* Default.png in Resources */,
+				C95860C316CCB10A00903799 /* Default@2x.png in Resources */,
+				C95860C516CCB10A00903799 /* Default-568h@2x.png in Resources */,
+				C95860CB16CCB10A00903799 /* ViewController_iPhone.xib in Resources */,
+				C95860CE16CCB10A00903799 /* ViewController_iPad.xib in Resources */,
+				C958614216CD0BB000903799 /* RedBadge.png in Resources */,
+				C958614316CD0BB000903799 /* RedBadge@2x.png in Resources */,
+				C958615616CDAAD700903799 /* image_collection.plist in Resources */,
+				C958615716CDAAD700903799 /* image_collection.png in Resources */,
+				C958615816CDAAD700903799 /* image_collection@2x.plist in Resources */,
+				C958615916CDAAD700903799 /* image_collection@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95860D116CCB10A00903799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95860E016CCB10A00903799 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C95860D216CCB10A00903799 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95860A616CCB10A00903799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95860BB16CCB10A00903799 /* main.m in Sources */,
+				C95860BF16CCB10A00903799 /* AppDelegate.m in Sources */,
+				C95860C816CCB10A00903799 /* ViewController.m in Sources */,
+				C95860F216CCB1B600903799 /* VPGridView.mm in Sources */,
+				C95860F316CCB1B600903799 /* VPIconLayer.m in Sources */,
+				C95860F416CCB1B600903799 /* VPProxyView.mm in Sources */,
+				C958610516CCB24900903799 /* VPBadge.m in Sources */,
+				C958613D16CD0B1500903799 /* VPIconData.m in Sources */,
+				C958614416CD0BB000903799 /* VPSpriteManager.m in Sources */,
+				C958614716CD0C2000903799 /* VPVersionUtil.m in Sources */,
+				C958615C16CDB4C200903799 /* VPCollisionCirlce.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95860CF16CCB10A00903799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95860E316CCB10A00903799 /* VPSpringBoardControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95860DA16CCB10A00903799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95860A916CCB10A00903799 /* VPSpringBoardControl */;
+			targetProxy = C95860D916CCB10A00903799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95860B716CCB10A00903799 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95860B816CCB10A00903799 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C95860C916CCB10A00903799 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95860CA16CCB10A00903799 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C95860CC16CCB10A00903799 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95860CD16CCB10A00903799 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C95860DE16CCB10A00903799 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95860DF16CCB10A00903799 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95860E416CCB10A00903799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95860E516CCB10A00903799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95860E716CCB10A00903799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPSpringBoardControl/VPSpringBoardControl-Prefix.pch";
+				INFOPLIST_FILE = "VPSpringBoardControl/VPSpringBoardControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C95860E816CCB10A00903799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPSpringBoardControl/VPSpringBoardControl-Prefix.pch";
+				INFOPLIST_FILE = "VPSpringBoardControl/VPSpringBoardControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C95860EA16CCB10A00903799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPSpringBoardControl.app/VPSpringBoardControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPSpringBoardControl/VPSpringBoardControl-Prefix.pch";
+				INFOPLIST_FILE = "VPSpringBoardControlTests/VPSpringBoardControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C95860EB16CCB10A00903799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPSpringBoardControl.app/VPSpringBoardControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPSpringBoardControl/VPSpringBoardControl-Prefix.pch";
+				INFOPLIST_FILE = "VPSpringBoardControlTests/VPSpringBoardControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95860A416CCB10A00903799 /* Build configuration list for PBXProject "VPSpringBoardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95860E416CCB10A00903799 /* Debug */,
+				C95860E516CCB10A00903799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95860E616CCB10A00903799 /* Build configuration list for PBXNativeTarget "VPSpringBoardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95860E716CCB10A00903799 /* Debug */,
+				C95860E816CCB10A00903799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C95860E916CCB10A00903799 /* Build configuration list for PBXNativeTarget "VPSpringBoardControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95860EA16CCB10A00903799 /* Debug */,
+				C95860EB16CCB10A00903799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95860A116CCB10A00903799 /* Project object */;
+}
