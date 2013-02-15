@@ -7,3 +7,6 @@ Also it shows red badge as well.
 
 Enjoy !!
 
+
+![Screen1] https://github.com/techyvish/VPSpringBoardControl/blob/master/Screen2.png
+![Screen2] https://github.com/techyvish/VPSpringBoardControl/blob/master/Screen1.png
