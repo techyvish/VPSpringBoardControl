@@ -128,7 +128,6 @@
 		C958609F16CCB10A00903799 = {
 			isa = PBXGroup;
 			children = (
-				C958614816CD97E400903799 /* QuartzCore.framework */,
 				C95860B416CCB10A00903799 /* VPSpringBoardControl */,
 				C95860DB16CCB10A00903799 /* VPSpringBoardControlTests */,
 				C95860AD16CCB10A00903799 /* Frameworks */,
@@ -148,6 +147,7 @@
 		C95860AD16CCB10A00903799 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C958614816CD97E400903799 /* QuartzCore.framework */,
 				C95860AE16CCB10A00903799 /* UIKit.framework */,
 				C95860B016CCB10A00903799 /* Foundation.framework */,
 				C95860B216CCB10A00903799 /* CoreGraphics.framework */,
