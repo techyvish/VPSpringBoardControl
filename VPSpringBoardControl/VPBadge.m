@@ -1,7 +1,3 @@
-/*
- * ANZ PushBanking
- * Copyright (c)2008; ANZ National Bank Limited.
- */
 
 #import "VPBadge.h"
 #import "VPVersionUtil.h"
